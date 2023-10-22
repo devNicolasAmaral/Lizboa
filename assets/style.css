@@ -115,7 +115,7 @@ section{
 .section-botao-item{
     width: 100%;
     height: 7vh;
-    margin: 1rem 1.7rem 1rem 0;
+    margin: 1rem 0 1rem 0;
     padding: .5rem;
     border-radius: 5px;
     border: none;
@@ -248,6 +248,10 @@ button:hover{
     text-decoration: underline;
 }
 
+.tel-2{
+    display: none;
+}
+
 .container-gps{
     display: flex;
     flex-direction: column;
@@ -375,7 +379,7 @@ footer {
     }
 
     section{
-        padding: 1rem;
+        padding: 12rem 0 0 0;
     }
 
     section img{
@@ -388,6 +392,11 @@ footer {
 
     .section-botao{
         width: 90%;
+    }
+
+    .section-2{
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .contato-gps{
@@ -405,6 +414,13 @@ footer {
         align-items: center;
         text-align: center;
     }
+    
+    .tel-1{
+        display: none;
+    }
 
-
+    .tel-2{
+        display: flex;
+        flex-direction: column;
+    }
 }
