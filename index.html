@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizboa - Água Mineral</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#"><img src="images/Logomarca - LizBoa.png" alt="Logo"></a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><ion-icon name="home"></ion-icon>Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#empresa"><ion-icon name="business"></ion-icon>
+                            Empresa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cart"><ion-icon name="cart"></ion-icon> Produtos</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contactPage.html"><ion-icon name="hand"></ion-icon>
+                            Contato</a></li>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="images/menu icon.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="index.html"><ion-icon name="home"></ion-icon>Home</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#empresa"><ion-icon name="business"></ion-icon>
+                        Empresa</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cart"><ion-icon name="cart"></ion-icon> Produtos</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contactPage.html"><ion-icon name="hand"></ion-icon>
+                        Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="section-container">
+                <h1>Água Mineral Pura e Revigorante</h1>
+                <p>Descubra a pureza da natureza em cada gole. A <strong>Lizboa</strong> traz para você água mineral
+                    premium, diretamente das fontes mais intocadas. Hidratação de qualidade, essencial para sua saúde e
+                    bem-estar. Escolha a excelência, escolha <strong>Lizboa</strong> hoje mesmo.</p>
+
+                <div class="section-botao">
+                    <button class="section-botao-item">Saiba Mais!</button>
+                </div>
+            </div>
+            <img src="images/water1.png" alt="Pessoas tomando água">
+        </section>
+
+        <section class="section-2">
+            <div class="section-container section-container-2">
+                <h1>Água Mineral de Qualidade</h1>
+                <p>Nossos produtos foram cuidadosamente selecionados para atender às suas necessidades diárias de
+                    hidratação, seja no trabalho, em casa, durante o exercício ou em qualquer outro lugar. Descubra uma
+                    variedade de opções que garantem uma experiência refrescante e pura, enquanto mantêm seu corpo e
+                    mente em equilíbrio.</p>
+
+                <div class="section-botao section-botao-2">
+                    <button class="section-botao-item">Veja nossos produtos!</button>
+                </div>
+            </div>
+            <img src="images/water2.png" alt="Pessoas tomando água">
+        </section>
+
+        <section class="section-contato">
+            <!--<div class="contato-titulo">
+                <h2>Fale Conosco</h2>
+                <p>Mande sua dúvida para nós!</p>
+            </div>
+
+            <div class="form">
+                <form class="formulario">
+                    <p>
+                        <label>Nome Completo</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" required>
+                    </p>
+
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
+                    </p>
+
+                    <p>
+                        <label>Telefone</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="(01) 23456-7890" required>
+                    </p>
+
+                    <p>
+                        <label>Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="50" rows="10" placeholder="A mensagem se trata sobre..." required></textarea>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div> -->
+
+            <div class="contato-container">
+                <div class="contato-column">
+                    <div class="contato-informacoes">
+                        <h3>Linha 1</h3>
+                        <p>R. Flamboyant, 402-474 - Jardim Karla, Pinhais - PR, 83328-400</p>
+                        <a href="mailto:vendas@agualizboa.com">vendas@agualizboa.com</a><br>
+                        <span><strong>Telefone de contato para venda:</strong></span>
+                        <span>
+                            <a href="tel:(41) 99087-5246">(41) 99087-5246</a> <span>|</span> <a href="tel:(41) 99410-3672">(41)
+                                99410-3672</a></span>
+                    </div>
+
+                    <div class="contato-informacoes">
+                        <h3>Linha 2</h3>
+                        <p>Rua Antonio Guaresi, 643-271 - Vila Torres I, Campo Largo - PR, 83609-520</p>
+                        <a href="mailto:atendimento@agualizboa.com">atendimento@agualizboa.com</a><br>
+                        <span><strong>Telefone de contato para ajuda:</strong></span>
+                        <span> <a href="tel:(41) 99942-6158">(41) 99942-6158</a> <span>|</span> <a href="tel:(41) 99357-2086">(41) 99357-2086</a></span>
+                    </div>
+                </div>
+
+                <div class="container-gps">
+                    <div class="contato-gps linha1"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.787733316707!2d-49.15149532496661!3d-25.411914977573336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcee5902c0fb35%3A0xbbcbeeb8d744b9de!2sR.%20Flamboyant%2C%20402-474%20-%20Jardim%20Karla%2C%20Pinhais%20-%20PR%2C%2083328-400!5e0!3m2!1spt-BR!2sbr!4v1696633574273!5m2!1spt-BR!2sbr"
+                            width="600" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="contato-gps"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.320260984478!2d-49.39289552496473!3d-25.46097937754205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd1ddb23f2241f%3A0x6152d95caa8fbdb7!2sR.%20Antonio%20Guaresi%2C%20643%20-%20Vila%20Torres%20I%2C%20Campo%20Largo%20-%20PR%2C%2083609-520!5e0!3m2!1spt-BR!2sbr!4v1696633624438!5m2!1spt-BR!2sbr"
+                            width="600" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-lista">
+            <ul class="footer-lista-sociais">
+                <li class="footer-lista-sociais-item"><a href="https://www.instagram.com/" target=”_blank”><ion-icon
+                            name="logo-instagram"></ion-icon></a></li>
+                <li class="footer-lista-sociais-item"><a href="https://www.facebook.com/" target=”_blank”><ion-icon
+                            name="logo-facebook"></ion-icon></a></li>
+        </div>
+
+        <div class="footer-container-texto">
+            <span>Todos direitos reservados 2023&#169</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="assets/menu.js"></script>
+</body>
+
+</html>
