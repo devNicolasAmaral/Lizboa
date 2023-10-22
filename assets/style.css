@@ -374,6 +374,10 @@ footer {
         display: block;
     }
 
+    section{
+        padding: 1rem;
+    }
+
     section img{
         display: none;
     }
