@@ -341,7 +341,7 @@ footer {
     .nav-bar{
         display: flex;
         justify-content: eve;
-        padding: 1.5rem 4rem;
+        padding: 0 4rem;
     }
 
     .nav-item{
