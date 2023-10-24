@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 95%;
+    width: 100%;
 }
 
 .section-container div p{
@@ -73,6 +73,50 @@
 @media screen and (max-width: 1260px) {
     .section-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
+
+    .section-container div img{
+        display: block;
+        margin: 0;
+    }
+
+    .section-container div h1{
+        padding: 1rem 0;
+        text-align: left;
+    }
+
+    .section-container div p{
+        margin: 0;
+        text-align: left;
+    }
+
+    .section-container-mais, .section-container-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box img{
+        display: flex;
+    }
+    .box p{
+        text-align: center;
+    }
+
+    @media screen and (max-width: 730px){
+
+        .section-container h1{
+            padding: ;
+        }
+
+        .section-container p {
+            padding: 0 2rem;
+        }
+
+        .section-container img{
+            padding-top: 5rem;
+            margin: 0;
+        }
+    }
+
 }
