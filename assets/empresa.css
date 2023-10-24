@@ -106,7 +106,7 @@
     @media screen and (max-width: 730px){
 
         .section-container h1{
-            padding: 0 2rem;
+            margin-left: 1rem;
         }
 
         .section-container p {
@@ -114,8 +114,11 @@
         }
 
         .section-container img{
-            padding-top: 5rem;
-            margin: 0;
+  
+        }
+
+        .section-container-mais{
+            margin-top: 5rem;
         }
     }
 
