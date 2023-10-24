@@ -105,16 +105,16 @@
 
     @media screen and (max-width: 730px){
 
-        main{
-            width: 100%;
-        }
-        
-        .section-container h1{
+        .section-container div h1{
             margin-left: 1rem;
         }
 
-        .section-container p {
+        .section-container div p {
             padding: 0 2rem;
+        }
+
+        .section-container div img {
+            width: 100%;
         }
 
         .section-container-mais{
