@@ -105,6 +105,12 @@ section{
     font-size: 1.5rem;
 }
 
+.link-botao{
+    width: 70%;
+    display: flex;
+    margin: auto auto;
+}
+
 .section-botao{
 
     display: flex;

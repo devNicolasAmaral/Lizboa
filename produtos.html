@@ -8,7 +8,7 @@
     <title>Lizboa - Água Mineral</title>
 
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/contact.css">
+    <link rel="stylesheet" href="assets/produtos.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                             Empresa</a></li>
                     <li class="nav-item"><a class="nav-link" href="produtos.html"><ion-icon name="cart"></ion-icon> Produtos</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contactPage.html"><ion-icon name="hand"></ion-icon>
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><ion-icon name="hand"></ion-icon>
                             Contato</a></li>
             </div>
             <div class="mobile-menu-icon">
@@ -41,36 +41,33 @@
                         Empresa</a></li>
                 <li class="nav-item"><a class="nav-link" href="produtos.html"><ion-icon name="cart"></ion-icon> Produtos</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="contactPage.html"><ion-icon name="hand"></ion-icon>
+                <li class="nav-item"><a class="nav-link" href="contact.html"><ion-icon name="hand"></ion-icon>
                         Contato</a></li>
             </ul>
         </div>
     </header>
-    <section>
-        <div class="contato-titulo">
-            <h2>Fale Conosco</h2>
-            <p>Mande sua dúvida para nós!</p>
+    <section class="products">
+        <div>
+            <h1>Produtos Disponíveis</h1>
+            <p>Encontre o qual melhor combina com você!</p>
         </div>
-        <div class="form">
-            <form class="formulario">
-                <p>
-                    <label>Nome Completo</label>
-                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui" required>
-                </p>
-                <p>
-                    <label>Email</label>
-                    <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
-                </p>
-                <p>
-                    <label>Telefone</label>
-                    <input type="tel" name="telefone" id="telefone" placeholder="(01) 23456-7890" required>
-                </p>
-                <p>
-                    <label>Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" cols="50" rows="10" placeholder="A mensagem se trata sobre..." required></textarea>
-                </p>
-                <button type="submit">Enviar</button>
-            </form>
+
+        <div class="product-boxes">
+            <div class="product-box">
+                <img src="images/garrafa500mlImg.png" alt="Garrafa de 500ml">
+                <p>Garrafa de aguá Premiun Lizboa 500ml</p>
+                <p class="price">R$7,65</p>
+            </div>
+            <div class="product-box">
+                <img src="images/garrafa1lImg.png" alt="Garrafa de 1L">
+                <p>Garrafa de aguá Premiun Lizboa 1L</p>
+                <p class="price">R$13,12</p>
+            </div>
+            <div class="product-box">
+                <img src="images/garrafa2,5lImg.png" alt="Garrafa de 2,5L">
+                <p>Garrafa de aguá Premiun Lizboa 2,5L</p>
+                <p class="price">R$22,59</p>
+            </div>
         </div>
     </section>
 
